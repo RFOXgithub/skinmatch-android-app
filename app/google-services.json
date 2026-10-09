@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407004266871",
+    "project_id": "rskripsirevisi",
+    "storage_bucket": "rskripsirevisi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407004266871:android:56e43cbc0f02097d6ae172",
+        "android_client_info": {
+          "package_name": "com.dicoding.skripsirevisi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaTm6lQGe23LbPW7h2cBNSz5vp0s2rOzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
