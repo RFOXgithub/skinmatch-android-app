@@ -1,0 +1,25 @@
+package com.dicoding.skripsirevisi.navigation
+
+sealed class Routes(val route: String) {
+    object SplashScreen : Routes("SplashScreen")
+    object LoginScreen : Routes("LoginScreen")
+    object ResetScreen : Routes("ResetScreen")
+    object RegisterScreen : Routes("RegisterScreen")
+    object HomeScreen : Routes("HomeScreen")
+    object HistoryScreen : Routes("HistoryScreen")
+    object SearchScreen : Routes("SearchScreen")
+    object ProfileScreen : Routes("ProfileScreen")
+    object DetailScreen : Routes("DetailScreen/{detailId}")
+    object NavProductScreen : Routes("NavProductScreen")
+    object NavEditProductScreen : Routes("NavEditProductScreen/{productId}")
+    object NavAddProductScreen : Routes("NavAddProductScreen")
+    object NavCategoryScreen : Routes("NavCategoryScreen")
+    object NavAddCategoryScreen : Routes("NavAddCategoryScreen")
+    object NavEditCategoryScreen : Routes("NavEditCategoryScreen/{categoryId}")
+    object NavUsersScreen : Routes("NavUsersScreen")
+    object NavAddUsersScreen : Routes("NavAddUsersScreen")
+    object NavEditUsersScreen : Routes("NavEditUsersScreen/{userId}")
+    object NavAdminProfileScreen : Routes("NavAdminProfileScreen")
+    object NavAddRutinitasScreen : Routes("NavAddRutinitasScreen/{time}")
+    object NavEditRutinitasScreen : Routes("NavEditRutinitasScreen/{timeEdit}")
+}
